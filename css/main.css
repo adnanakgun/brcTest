@@ -1,0 +1,40 @@
+.container {
+  padding: 2em 0 0; }
+  .container .row {
+    margin-bottom: 2em; }
+    .container .row img {
+      width: 100%; }
+    .container .row .info-box {
+      background-color: #f5f6f6;
+      height: 190px;
+      padding: 2em; }
+      .container .row .info-box h4 {
+        margin-top: 0;
+        color: #6d6f71; }
+      .container .row .info-box .brand {
+        color: #a7a9ac;
+        margin-bottom: 4em; }
+      .container .row .info-box .price-sale p {
+        display: inline; }
+        .container .row .info-box .price-sale p.price {
+          color: #279ad6;
+          font-size: 28px; }
+          .container .row .info-box .price-sale p.price span {
+            font-size: 18px; }
+        .container .row .info-box .price-sale p.sale-info {
+          color: #65be63;
+          font-size: 14px;
+          margin-left: 1em; }
+    .container .row .col-md-8 {
+      position: relative; }
+      .container .row .col-md-8 .info-box {
+        position: absolute;
+        bottom: 0;
+        left: 15px;
+        width: 46%; }
+
+@media screen and (max-width: 1200px) {
+  .container .row .info-box {
+    height: 155px; }
+    .container .row .info-box .brand {
+      margin-bottom: 2em; } }
